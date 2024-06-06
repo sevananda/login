@@ -7,7 +7,7 @@ const index = () => {
     <Formik
       initialValues={{ email: '', password: '' }}
       validate={values => {
-        const errors = {};
+        const errors =  {};
         if (!values.email) {
           errors.email = 'Required';
         } else if (
